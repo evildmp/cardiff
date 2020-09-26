@@ -1,1 +1,19 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+*.pyc
+*.pyo
+db.sqlite3
+
+# Django
+/staticfiles
+
+# Divio
 .divio
+/data.tar.gz
+/data

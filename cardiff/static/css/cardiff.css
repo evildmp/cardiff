@@ -1,0 +1,9 @@
+body {background-color: #1E3C6E}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light a {color: #1E3C6E !important}
+
+.container {background-color: white}
+
+.col {
+  margin: 1em 0 !important;
+}
