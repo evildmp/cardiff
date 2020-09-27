@@ -1,6 +1,11 @@
 {% extends "base.html" %}
 {% load cms_tags %}
 
+{% block page_title %}
+    {% page_attribute "page_title" %}
+{% endblock %}
+
+
 {% block content %}
   {% placeholder "content" or %}
     <p>This page has no content yet. Make sure you are in <em>Edit</em> mode

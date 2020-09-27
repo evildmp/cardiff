@@ -2,6 +2,11 @@ body {background-color: #1E3C6E}
 
 nav.navbar.navbar-expand-lg.navbar-light.bg-light a {
   color: #1E3C6E !important;
+  text-transform: lowercase;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light a:hover {
+  color: #FF2E00 !important;
 }
 
 nav.navbar {
@@ -9,8 +14,30 @@ nav.navbar {
   border-bottom: 2px solid #1E3C6E;
   }
 
-.container {background-color: white}
+nav .active {
+  border-bottom: 2px solid #FF2E00;
+  }
+
+.py-3 {background-color: white}
 
 .col {
   margin: 1em 0 !important;
 }
+
+h1  {font-size: 130%;}
+
+a:hover {color: #FF2E00}
+
+.masthead {background: #FDA600; color: white; font-weight: bold;
+  padding-top: 1em; padding-bottom: 1em;}
+
+
+.container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.container.main {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  }
