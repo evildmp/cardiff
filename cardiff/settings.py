@@ -38,7 +38,7 @@ ALLOWED_HOSTS = [DIVIO_DOMAIN] + DIVIO_DOMAIN_ALIASES
 
 
 SECURE_SSL_REDIRECT = os.environ.get('SECURE_SSL_REDIRECT') != "False"
-print(SECURE_SSL_REDIRECT)
+
 # Application definition
 
 INSTALLED_APPS = [
