@@ -46,3 +46,5 @@ a:hover {color: #FF2E00}
   padding-top: 30px;
   padding-bottom: 30px;
   }
+
+table thead {background-color: #FDA600; color: white;}
