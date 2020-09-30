@@ -10,3 +10,4 @@ django-cms==3.7
 djangocms-text-ckeditor
 django-filer
 djangocms-bootstrap4
+djangocms-snippet==3.0.0
