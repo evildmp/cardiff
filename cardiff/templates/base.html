@@ -48,11 +48,18 @@
       </div>
     </nav>
 
-    <div class="container main py-3">
+    <div class="outer-container">
 
-        {% block content %}
-            <p>Hello world! This is the Bootstrap 4 Boilerplate.</p>
-        {% endblock %}
+      <div class="container main py-3">
+
+          {% block content %}
+              <p>Hello world! This is the Bootstrap 4 Boilerplate.</p>
+          {% endblock %}
+
+      </div>
+
+      <footer>{% static_placeholder "footer" %}</footer>
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

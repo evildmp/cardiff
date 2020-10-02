@@ -1,5 +1,10 @@
 body {background-color: #1E3C6E}
 
+nav.navbar {
+  border-top: 2px solid #1E3C6E;
+  border-bottom: 2px solid #1E3C6E;
+  }
+
 nav.navbar.navbar-expand-lg.navbar-light.bg-light a {
   color: #1E3C6E !important;
   text-transform: lowercase;
@@ -9,16 +14,9 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light a:hover {
   color: #FF2E00 !important;
 }
 
-nav.navbar {
-  border-top: 2px solid #1E3C6E;
-  border-bottom: 2px solid #1E3C6E;
-  }
-
 nav .active {
   border-bottom: 2px solid #FF2E00;
   }
-
-.py-3 {background-color: white}
 
 .col {
   margin: 1em 0 !important;
@@ -36,6 +34,7 @@ a:hover {color: #FF2E00}
 .masthead {background: #FDA600; color: white; font-weight: bold;
   padding-top: 1em; padding-bottom: 1em;}
 
+.py-3 {background-color: white}
 
 .container {
   padding-left: 50px;
@@ -47,4 +46,36 @@ a:hover {color: #FF2E00}
   padding-bottom: 30px;
   }
 
+.outer-container {position: relative;}
+
 table thead {background-color: #FDA600; color: white;}
+
+/* -------- footer --------- */
+
+footer {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  margin-right: 0em;
+  transform: rotate(-90deg);
+  transform-origin: top right;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+footer a {
+  color: #1E3C6E;
+  font-weight: bold;
+  margin-left: 1em; margin-right: 1em;
+  letter-spacing: 1px;
+}
+
+footer a:hover {
+  color: #FDA600;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 600px) {
+  footer a {color: #FDA600; }
+  footer a:hover {color: white;}
+}
