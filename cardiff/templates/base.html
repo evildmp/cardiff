@@ -48,17 +48,13 @@
       </div>
     </nav>
 
-    <div class="outer-container">
+    <div class="container main py-3">
 
-      <div class="container main py-3">
+        {% block content %}
+            <p>Hello world! This is the Bootstrap 4 Boilerplate.</p>
+        {% endblock %}
 
-          {% block content %}
-              <p>Hello world! This is the Bootstrap 4 Boilerplate.</p>
-          {% endblock %}
-
-      </div>
-
-      <footer>{% static_placeholder "footer" %}</footer>
+        <footer>{% static_placeholder "footer" %}</footer>
 
     </div>
 
