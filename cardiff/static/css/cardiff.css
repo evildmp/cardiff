@@ -47,6 +47,15 @@ a:hover {color: #FF2E00}
   position: relative;
   }
 
+.container .special {
+  background: #d9e7ff;
+  padding-top: 1rem;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
 .outer-container {}
 
 table thead {background-color: #FDA600; color: white;}

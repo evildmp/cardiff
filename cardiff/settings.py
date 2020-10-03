@@ -77,6 +77,7 @@ INSTALLED_APPS = [
     'djangocms_bootstrap4.contrib.bootstrap4_tabs',
     'djangocms_bootstrap4.contrib.bootstrap4_utilities',
     'djangocms_snippet',
+    'djangocms_style',
 
     'cardiff',
 
@@ -202,3 +203,8 @@ LANGUAGES = [
 CMS_TEMPLATES = [
     ('home.html', 'Home page template'),
 ]
+
+
+THUMBNAIL_HIGH_RESOLUTION = True
+
+DJANGOCMS_STYLE_CHOICES = ['container', 'content', 'teaser', 'special']
