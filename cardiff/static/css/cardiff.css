@@ -104,14 +104,14 @@ footer a:hover {
 
 
 .btn-primary {
-  color: #1E3C6E;
-  background-color: #ffbd3f;
+  color: #ffbd3f;
+  background-color: #1E3C6E;
   border-color: #1E3C6E;
   font-weight: bold;
 }
 
 .btn-primary:hover {
   font-weight: bold;
-  color: #ffbd3f;
-  background-color: #1E3C6E;
+  color: #1E3C6E;
+  background-color: #ffbd3f;
 }
